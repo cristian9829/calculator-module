@@ -28,6 +28,7 @@ func (c calc) operate(entrada string, operador string) int {
 
 }
 
+// LeerEntrada lee una entrada
 func LeerEntrada() string {
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Scan()
